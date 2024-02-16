@@ -4,14 +4,17 @@
   box-sizing: border-box;
 }
 
-
-
-.nav__part p {
-  color: hsl(322, 100%, 66%);
-}
-
 .container {
   width: 80%;
+  margin: 0 auto;
+}
+
+.main__container__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
 }
 
 header {
@@ -60,6 +63,3 @@ header {
   filter: brightness(0);
   filter: invert(1);
 }
-
-
-
