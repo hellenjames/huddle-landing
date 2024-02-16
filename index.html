@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="css/style.css" />
 
     <link
@@ -17,16 +16,7 @@
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+   
   </head>
   <body>
     <!-- /*header part*/ -->
@@ -39,22 +29,24 @@
           </div>
         </div>
       </nav>
-      <hero class="container">
-        <div>
-          <div class="hero__section">
-            <h1>Build The Community Your Fans Will Love</h1>
-            <p>
-              Huddle re-imagines the way we build communities. You have a voice,
-              but so does your audience. Create connections with your users as
-              you engage in genuine discussion.
-            </p>
-            <button>Get Started For Free</button>
-            <div>
-              <img src="images/illustration-mockups.svg" width="600" />
+      <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+              <div class="hero__content--left">
+                <h1>Build The Community Your Fans Will Love</h1>
+                <p>
+                  Huddle re-imagines the way we build communities. You have a
+                  voice, but so does your audience. Create connections with your
+                  users as you engage in genuine discussion.
+                </p>
+                <button>Get Started For Free</button>
+              </div>
+              <div class="hero__content--right">
+                <img src="images/illustration-mockups.svg" width="600" />
+              </div>
             </div>
-          </div>
         </div>
-      </hero>
+      </section>
     </header>
 
     <!-- /*main part*/ -->
@@ -106,54 +98,11 @@
         </div>
       </div>
     </main>
-    <!-- <div class="main__content__images">
-    <section class="grow">
-      <div class="grow__content">
-      
-      <h1>Grow Together</h1>
-      <p> Generate meaningful discussions with your audience and build
-        a strong, loyal community. Think of the insightful conversations you miss
-        out on with a feedback form.</p>
-        <img src="images/illustration-grow-together.svg"width=200>
-        
-      </div>
-    </section>
-    <section class="conversation">
-        <div class="conversation__content">
-        <div class="conversation__content__left"></div>
-        <h1>Flowing Conversations</h1>
-        <p>You wouldn't paginate a
-          conversation in real life, so why do it online? Our threads have
-          just-in-time loading for a more natural flow.</p>
-        </div>
-        </div>
-      </section>
-        <section class="users">
-          <div class="users__content">
-          <div class="users__content__content">
-          <h1> Your Users </h1>
-          <p>It takes no time
-            at all to integrate Huddle with your app's authentication solution. This
-            means, once signed in to your app, your users can start chatting
-            immediately.</p>
-            </div>
-          </div>
-          </section>
-          <section class="content">
-            <div class="content__center">
-            <h1>Ready To Build Your Community?</h1>
-          </div>
-          </section>
-       
-          <section class="btn__content">
-            <div class="btn">
-            <button>Get Started For Free </button>
-          </div>
-          </section> -->
+    
 
     <!-- <-- /*footer part*/ -->
-    <footer>
-      <div class="foot__container">
+    <footer class="footer">
+      <div class="container">
         <div class="foot__section">
           <div class="foot__left">
             <img src="images/logo.svg" />
@@ -167,14 +116,16 @@
             <img src="images/icon-email.svg" width="20" />
             <p>example@huddle.com</p>
           </div>
+          <div class="foot__center">
+            <ul>
+              <li>About Us</li>
+              <li>What We Do</li>
+              <li>FAQ</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
+     
     </footer>
   </body>
 </html>
