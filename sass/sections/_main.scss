@@ -1,9 +1,5 @@
-.grow__content{
-    display: flex;
-}
-.conversation__content{
-    display: flex;
-}
-.users__content{
-    display: flex;
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+.main__container__card{
+    @include flex(space-between,center);
 }
