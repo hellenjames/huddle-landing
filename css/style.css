@@ -5,9 +5,11 @@
 }
 
 
+
 .nav__part p {
   color: hsl(322, 100%, 66%);
 }
+
 .container {
   width: 80%;
 }
@@ -42,4 +44,6 @@ header {
   filter: brightness(0);
   filter: invert(1);
 }
+
+
 
