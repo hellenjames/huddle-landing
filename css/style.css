@@ -4,6 +4,37 @@
   box-sizing: border-box;
 }
 
-.nav__part p {
-  color: hsl(322, 100%, 66%);
+.container {
+  width: 80%;
+}
+
+header {
+  background: url(../../images/bg-hero-desktop.svg);
+  height: 50vh;
+}
+
+.nav__part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.hero__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.foot__container {
+  background-color: hsl(192, 100%, 9%);
+  height: 40vh;
+}
+
+.foot__section img {
+  filter: brightness(0);
+  filter: invert(1);
 }

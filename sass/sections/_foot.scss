@@ -1,0 +1,15 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.foot__container{
+background-color: hsl(192, 100%, 9%);
+height:40vh;
+}
+.foot__section img{
+    filter: brightness(0);
+    filter: invert(1);
+}
+.foot__section{
+    
+
+}
