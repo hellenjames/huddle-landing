@@ -1,0 +1,14 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+header{
+  background: url(../../images/bg-hero-desktop.svg);
+  height: 50vh;
+}
+.nav__part{
+  @include flex (space-between,center);
+}
+.hero__section{
+  @include flex (space-between,center);
+
+}
